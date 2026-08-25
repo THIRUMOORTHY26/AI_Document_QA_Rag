@@ -22,7 +22,7 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 
 ##  RAG Architecture
 
-"
+```text
                 PDF Document
                      │
                      ▼
@@ -56,7 +56,7 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
                      │
                      ▼
                Source / Page
-"
+```
 ## Tech Stack
 
 - Python 3.12
@@ -72,23 +72,23 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 
 ##  Installation
 
-1. Clone the repository
+### 1. Clone the repository
    git clone https://github.com/THIRUMOORTHY26/AI_Document_QA_Rag.git
 
-3. Navigate to the project
+### 2. Navigate to the project
    cd AI_Document_QA_Rag
 
-4. Create a virtual environment
+### 3. Create a virtual environment
    python -m venv venv
 
-5. Activate the virtual environment
+### 4. Activate the virtual environment
    venv\Scripts\activate
 
-6. Install Python dependencies
+### 5. Install Python dependencies
    pip install -r requirements.txt
 
-7. Install Ollama
+### 6.Install Ollama
    ollama pull qwen2.5:3b
 
-8. Run the application
+### 7. Run the application
    python -m streamlit run app.py
