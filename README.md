@@ -57,7 +57,7 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
                      ▼
               Source / Page
 
-###  Tech Stack
+##  Tech Stack
 
 - Python 3.12
 - LangChain
