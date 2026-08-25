@@ -1,4 +1,4 @@
-#  AI Document Q&A — RAG
+# AI Document Q&A — RAG
 
 An AI-powered document question-answering application built using
 Retrieval-Augmented Generation (RAG).
@@ -7,7 +7,7 @@ Users can upload a PDF document and ask questions about its content.
 The application retrieves relevant document chunks using semantic
 search and generates answers using a locally hosted Qwen 2.5 3B model.
 
-##  Features
+## Features
 
 - Upload PDF documents
 - Extract text from PDF files
@@ -20,7 +20,7 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 - Interactive Streamlit interface
 - Runs locally without requiring an OpenAI API key
 
-##  RAG Architecture
+## RAG Architecture
 
 ```text
                 PDF Document
@@ -56,8 +56,9 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
                      │
                      ▼
               Source / Page
+```
 
-###  Tech Stack
+## Tech Stack
 
 - Python 3.12
 - LangChain
@@ -70,32 +71,29 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 - PyPDF
 - Git & GitHub
 
-####  Installation
+## Installation
 
-1. Clone the repository
-```bash
+#### 1. Clone the repository
 git clone https://github.com/THIRUMOORTHY26/AI_Document_QA_Rag.git
 
-2. Navigate to the project
-```bash
+#### 2. Navigate to the project
 cd AI_Document_QA_Rag
 
-3. Create a virtual environment
-```bash
+#### 3. Create a virtual environment
 python -m venv venv
 
-4. Activate the virtual environment
-```bash
+#### 4. Activate the virtual environment
 venv\Scripts\activate
 
-5. Install Python dependencies
-```bash
+#### 5. Install Python dependencies
 pip install -r requirements.txt
 
-6. Install Ollama
-```bash
+#### 6. Install Ollama
 ollama pull qwen2.5:3b
 
-7. Run the application
-```bash
+#### 7. Run the application
 python -m streamlit run app.py
+
+## Application Screenshot
+
+[AI Document Q&A Application](screenshots/rag_application.png)
