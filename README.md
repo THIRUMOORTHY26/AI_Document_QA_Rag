@@ -26,33 +26,33 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
                 PDF Document
                      │
                      ▼
-              PyPDFLoader
+                PyPDFLoader
                      │
                      ▼
-             Text Chunking
+               Text Chunking
                      │
                      ▼
-       Sentence Transformer
-       (all-MiniLM-L6-v2)
+           Sentence Transformer
+            (all-MiniLM-L6-v2)
                      │
                      ▼
                    FAISS
-              Vector Store
+               Vector Store
                      │
                      ▼
-             User Question
+              User Question
                      │
                      ▼
-            Similarity Search
+             Similarity Search
                      │
                      ▼
-            Relevant Chunks
+             Relevant Chunks
                      │
                      ▼
-          Qwen 2.5 3B / Ollama
+           Qwen 2.5 3B / Ollama
                      │
                      ▼
-              Final Answer
+               Final Answer
                      │
                      ▼
               Source / Page
