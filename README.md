@@ -22,42 +22,42 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 
 ##  RAG Architecture
 
-```text
+"
                 PDF Document
                      │
                      ▼
-              PyPDFLoader
+                PyPDFLoader
                      │
                      ▼
-             Text Chunking
+               Text Chunking
                      │
                      ▼
-       Sentence Transformer
-       (all-MiniLM-L6-v2)
+           Sentence Transformer
+            (all-MiniLM-L6-v2)
                      │
                      ▼
                    FAISS
-              Vector Store
+               Vector Store
                      │
                      ▼
-             User Question
+              User Question
                      │
                      ▼
-            Similarity Search
+             Similarity Search
                      │
                      ▼
-            Relevant Chunks
+             Relevant Chunks
                      │
                      ▼
-          Qwen 2.5 3B / Ollama
+           Qwen 2.5 3B / Ollama
                      │
                      ▼
-              Final Answer
+               Final Answer
                      │
                      ▼
-              Source / Page
-
-##  Tech Stack
+               Source / Page
+"
+## Tech Stack
 
 - Python 3.12
 - LangChain
@@ -70,32 +70,25 @@ search and generates answers using a locally hosted Qwen 2.5 3B model.
 - PyPDF
 - Git & GitHub
 
-####  Installation
+##  Installation
 
 1. Clone the repository
-```bash
-git clone https://github.com/THIRUMOORTHY26/AI_Document_QA_Rag.git
+   git clone https://github.com/THIRUMOORTHY26/AI_Document_QA_Rag.git
 
-2. Navigate to the project
-```bash
-cd AI_Document_QA_Rag
+3. Navigate to the project
+   cd AI_Document_QA_Rag
 
-3. Create a virtual environment
-```bash
-python -m venv venv
+4. Create a virtual environment
+   python -m venv venv
 
-4. Activate the virtual environment
-```bash
-venv\Scripts\activate
+5. Activate the virtual environment
+   venv\Scripts\activate
 
-5. Install Python dependencies
-```bash
-pip install -r requirements.txt
+6. Install Python dependencies
+   pip install -r requirements.txt
 
-6. Install Ollama
-```bash
-ollama pull qwen2.5:3b
+7. Install Ollama
+   ollama pull qwen2.5:3b
 
-7. Run the application
-```bash
-python -m streamlit run app.py
+8. Run the application
+   python -m streamlit run app.py
