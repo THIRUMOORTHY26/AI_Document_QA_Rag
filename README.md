@@ -94,6 +94,6 @@ ollama pull qwen2.5:3b
 #### 7. Run the application
 python -m streamlit run app.py
 
-## Application Screenshot
+## Project Screenshot
 
-[AI Document Q&A Application](screenshots/rag_application.png)
+![AI Document Q&A RAG](screenshots/rag_output.png)
